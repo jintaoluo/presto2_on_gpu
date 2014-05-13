@@ -8,7 +8,9 @@ By default PRESTO will be compiled for CPU-only. This is controlled by line 22 i
 ###compile with GPU routines
 Open the $PRESTO/src/Makefile
 1.	Make sure line 22 is:
+
 >use_cuda = yes# yes/no
+
 2.	Check the CUDA-related variables and flags, and modify them if necessary.
 
 ##How to use
