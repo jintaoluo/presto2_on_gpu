@@ -2,6 +2,7 @@
 
 The program of accelsearch in PRESTO was accelerated with CUDA by Jintao Luo. Any questions on how to compile and use the GPU routine may go to jluo@nrao.edu
 
+<<<<<<< HEAD
 ##How to compile
 
 ###compile for CPU-only
@@ -19,3 +20,8 @@ To run accelsearch on GPU, use the -cuda option. Or the program will run on CPU.
 >accelsearch -numharm 16 -zmax 256 ur_data.dat -cuda 0
 
 0 means using the 1st GPU in your machine.
+=======
+
+##How to compile for CPU-only
+
+>>>>>>> FETCH_HEAD
