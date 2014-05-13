@@ -4,6 +4,7 @@ The program of accelsearch in PRESTO was accelerated with CUDA by Jintao Luo. An
 ###compile for CPU-only
 By default PRESTO will be compiled for CPU-only. This is controlled by line 22 in $PRESTO/src/Makefile. For CPU-only, this line should be as:
 >use_cuda = no# yes/no
+
 ###compile with GPU routines
 Open the $PRESTO/src/Makefile
 1.	Make sure line 22 is:
