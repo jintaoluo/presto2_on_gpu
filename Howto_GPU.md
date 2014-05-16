@@ -20,11 +20,4 @@ Open the $PRESTO/src/Makefile
 To run accelsearch on GPU, use the -cuda option. Or the program will run on CPU. For example: 
 >accelsearch -numharm 16 -zmax 256 ur_data.dat -cuda 0
 
-<<<<<<< HEAD
 0 means using the 1st GPU in your machine.
-<<<<<<< HEAD
-=======
-0 means using the 1st GPU in your machine.
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
